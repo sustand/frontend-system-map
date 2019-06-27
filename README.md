@@ -1,868 +1,91 @@
 
-#2015-2016前端知识体系
+<a href="https://search.jd.com/Search?keyword=%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90&enc=utf-8&wq=%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90&pvid=fcced0a32e8b43de8b93fca570a93130"><img src="http://7tszky.com1.z0.glb.clouddn.com/Fm9f00eiJ4OMozFXeNUKwurzVzo1" title="现代前端技术解析" width="50%"></a> &emsp;&emsp;首先肯定是一本好书啦，[查看豆瓣评分](https://book.douban.com/subject/27021790/)
 
-![](https://raw.githubusercontent.com/ouvens/frontend-system-map/master/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB-%E6%B8%85%E6%99%B0.jpg)
 
-&emsp;&emsp;总结了下前端这两年的主流技术，大部分技术在我的博客里有较深入的研究学习，对应技术博客地址：http://ouvens.github.io ，博客持续更新中，欢迎大家关注~
+&emsp;&emsp;2017年很快又过去了几个月，在过去的一年里，前端技术迅猛发展，前端各类技术都在优化升级，"大前端"的概念进一步体现，前端人才需求量进一步扩大，但优秀的前端工程师却如大海捞针，一将难求，那么在未来一年里我们应该做好怎样的准备才能成为一名优秀(不仅仅是合格)的前端工程师呢？
 
+####  一 、现代前端技术知识体系
 
-## 一、框架与组件
+&emsp;&emsp;我们先看看2017～2018前端技术知识体系图，这也是现代前端技术体系结构图的第二版。
 
-####&emsp;bootstrap等UI框架设计与实现
+![](https://raw.githubusercontent.com/ouvens/frontend-system-map/master/%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90_V2%40%E9%AB%98%E6%B8%85.jpg)
 
+[查看code部分下载大图]
 
- - 伸缩布局：grid网格布局
+&emsp;&emsp;大家也可以对比2016年的知识技术体系来看看：[2015-2016前端知识体系](http://jixianqianduan.com/frontend-resource/2016/01/26/front-end-learning-list.html)。在这次更新中，主要完善了原有的部分知识内容的原理解析，增加了新的领域内容。
 
+&emsp;&emsp;可能大家觉得体系图中内容还是过于抽象，没有有经验的人带，仍不能在实践中深入学习，或者需要自己花更多的时间搜索资料才能了解，亦或是网上的学习资料不够全面深入。
 
- - 基础UI样式：元素reset、按钮、图片、菜单、表单
+&emsp;&emsp;幸运的是，对于现代前端技术知识体系图，现在已经推出了[《现代前端技术解析》](https://search.jd.com/Search?keyword=%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90&enc=utf-8&pvid=1d4c950a6df34530b1fc1585ca7e011f)一书，针对2017年～2018年前端技术知识体系内容深入原理，展开剖析，体系化、全面地帮助前端读者们解决了这些问题。我们不妨先来看看[本书目录](https://github.com/ouvens/frontend-system-map/blob/master/v2/%E3%80%8A%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90%E3%80%8B%E7%9B%AE%E5%BD%95.pdf)（打不开看[这个链接](http://pan.baidu.com/s/1i4NMvQl)），再回头来看。
 
 
- - 组件UI样式：按钮组、字体图标、下拉菜单、输入框组、导航组、面包屑、分页、标签、轮播、弹出框、列表、多媒体、警告
+####  二、《现代前端技术解析》适读人群
 
+&emsp;&emsp;前端入门极其简单，但要学习提升成为一名优秀的前端的工程师又极其不易，因为涉及的技术点很多，我们往往需要阅读很多书籍才能理解前端技术的知识体系。这本书在前端知识体系上做了很好的总结和梳理，涵盖了现代前端技术绝大部分的知识内容，起到一个启蒙作用，能帮助读者快速把握前端技术的整个脉络，培养更完善的体系化思维，掌握更多灵活的前端代码架构方法，能够帮助读者获得成为前端高级工程师或架构师所必须具备的思维和能力。
 
- - 响应式布局：布局、结构、样式、媒体、javascript响应式
+&emsp;&emsp;同时，本书是来自一位腾讯一线前端工程师的工作经验和技术成长梳理总结，于2017年4月底正式发售，是一本全部由阿里、腾讯前端团队多位技术管理和技术专家一起审稿推荐完成的**前端思维体系成长进阶必读书**，融合了业内极其全面的前端知识技术实践经验。如果您不确定买不买，也可以先看看[本书目录](https://github.com/ouvens/frontend-system-map/blob/master/v2/%E3%80%8A%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90%E3%80%8B%E7%9B%AE%E5%BD%95.pdf)（打不开看[这个链接](http://pan.baidu.com/s/1i4NMvQl)）。
 
+---
 
- - 第三方插件：插件管理
+&emsp;&emsp;<a target="_blank" href="http://www.broadview.com.cn/book"><img src="http://7tszky.com1.z0.glb.clouddn.com/FqLAMLFJ9gI3g2xHqyH_-xG0wBPH" title="点击查看更多前端书籍" width="240"/></a>
 
+---
 
-####&emsp;jQuery、zepto使用原理以及插件开发
+&emsp;&emsp;<a target="_blank" href="https://search.jd.com/Search?keyword=%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90&enc=utf-8&wq=%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90&pvid=fcced0a32e8b43de8b93fca570a93130"><img src="http://7tszky.com1.z0.glb.clouddn.com/FgJZKAoJKAjGJsSt6h4Q8fLrSIqV" title="点击进入京东购买" width="240"/></a>
+&emsp;&emsp;<font color="red"> （折后约 &yen; 50 ~ &yen; 65）</font>
 
+&emsp;&emsp;[进入京东购买](https://search.jd.com/Search?keyword=%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90&enc=utf-8&wq=%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90&pvid=fcced0a32e8b43de8b93fca570a93130) &emsp;&emsp;[进入淘宝购买](https://s.taobao.com/search?q=%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.50862.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170417) &emsp;&emsp;[进入亚马逊购买](https://www.amazon.cn/s/ref=nb_sb_noss?__mk_zh_CN=%E4%BA%9A%E9%A9%AC%E9%80%8A%E7%BD%91%E7%AB%99&url=search-alias%3Dstripbooks&field-keywords=%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90)
 
- - 支持amd、cmd、全局变量的模块化封装
+---
 
+&emsp;&emsp;《现代前端技术解析》适合以下几类读者阅读：
 
- - $.fn.method = function(){}
+1. **针对想进入阿里、腾讯工作的求职者**。项目做过很多，但面试总是悲剧，因为面试官一言不和就问你实现原理和解决方案，但你最擅长的可能是编代码。那么这本书能全面帮助你了解前端各方面的技术原理和实现机制，深入底层细节，让你对前端的理解不只是停留在代码层面面，更加轻松通过阿里、腾讯的技术面试。当然校招应届生更应该买来看看，提升竞争力。
 
+2. **针对刚入门的初学者**。前端学习入门非常简单，但是进阶的道路非常漫长，不是折腾了几个框架就能深入学习的，入门后没有明确的方向指导，将可能一直停留在初级阶段。那么这本书能以一个更高的层面引导刚入门的学习者，应该具有怎样的前端视野和学习范畴。
 
-####&emsp;mvc/mvvm框架原理设计，vue/angular/avalon等
+3. 针对**想要进一步学习前端进阶技能的职业者**，例如框架设计原理、架构设计原理等，想要报班学习或购买视频课程，但是培训报名费过极其昂贵（例如一般一套前端进阶课程一般在**&yen;15000元**以上）。前端技术发展很快，但是万变不离其宗。现在只需要低价购买这本书籍，自己静心学习，理解其中的原理，就能在学习时触类旁通各类相关技术，知识内容性价比高出几十倍百倍。
 
+4. 在前端开发上**具有一定基础和开发经验**，但是对现代前端技术知识体系认识不够前面，**不够深入的开发者**。也可以通过此书快速了解主流技术框架和架构的设计原理，加速前端的学习过程，让学习的时间事半功倍。
 
- - directive设计：html、text、class、html、attr、repeat、ref，可扩展
+5. **对于进阶培训班的讲师或企业前端培训讲师**。每节课程都需要去开发整理课件，很花时间，但是课件又过于抽象，如果没人讲解，不易于重复学习和传播。那么这本书就能很有用地帮助你规划教学路径，让您更轻松、更详细地展开进阶教学内容，也能帮助学员们有书可读，有书可依。
 
+&emsp;&emsp;当然，如果你还是刚要入门的学习者，还没接触过前端，但是想要学习前端。那么，我也推荐你先学习另一个前端基础知识体系结构图来开始，加上一两个的项目实践，再来进阶学习2017年～2018年前端技术知识体系内容。[查看前端基础知识结构图](https://github.com/ouvens/frontend-system-map/blob/master/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E5%9F%BA%E7%A1%80%E7%AF%87.png)
 
- - filter设计：bool、upperCase、lowerCase，可扩展
+&emsp;&emsp;新手推荐基础参考资料：[www.w3cschool.cn](http://www.w3cschool.cn/html/)，而不是 http://www.w3school.com.cn/ 哦。
 
+#### 三、对于此书，看看腾讯、阿里的大牛怎么说
 
- - 表达式设计：if-else等实现
+&emsp;&emsp;近几年前端技术发展迅猛，前端人才的需求急剧增加。本书从一名一线专业前端从业者的角度，面面俱到地给大家剖析了当前Web前端所需要具备的各种现代技术。无论是从网络、浏览器还是从工程化、团队协作的角度都给出了非常好的呈现，非常值得大家阅读。
+<div style="color:#f90;text-align:right;">--郭学亨(Henry)，腾讯前端IMWeb团队负责人</div>
 
+---
+&emsp;&emsp;近几年前端的书籍很少有全面而且深入介绍前端技术思想与理论相关的，大部分都是独立拆分介绍前端单点领域的技术栈。这本书以现代前端技术思想与理论为主，详细而且深入，但又通俗地向读者阐述了现代前端技术栈。不管对初学者还是中级者都是值得一读的好书，读者们可以通过本书快速领略到前端领域的深度和广度，把握整个前端技术领域所涵盖的绝大多数知识技术要点和发展方向，为未来深入学习前端知识提供指导和方向。
 
- - viewmodel结构设计：例如数据，元素，方法的挂载与作用域
+<div style="color:#f90;text-align:right;">-- 大漠，W3cplus.com 站长</div>
 
+---
 
- - 数据更变检测：函数触发，脏数据检测、对象hijacking
+&emsp;&emsp;现如今前端已经不再是一种“新兴职业”，对技术系统且全面的追求愈显重要，但繁杂的技术体系及各种旁支经常让初学者无所适从；本书能从全局和主流的视野介绍前端职业工程师几乎涉猎的所有知识，并将前端工作中涉及到的解决方案分门别类，抽象成易于理解的思路；相信对前端感兴趣的读者能够借助这本难得的好书触类旁通，一帆风顺地推开通往前端界的神秘大门，快速地成为一位优秀的前端工程师。 
 
+<div style="color:#f90;text-align:right;">--许诺（Darksnow），阿里巴巴前端无线开发专家</div>
 
-####&emsp;polymer/angular2思想与设计思路
+---
+&emsp;&emsp;本书从一名前端工程师的角度，梳理了现代前端所涉及的基础知识体系和原理性技术解析，包括开发方式的变更、前端框架的演进、前端跨栈技术以及未来的VR等等，契合当前流行的“大前端”概念，非常适合读者们扩宽个人知识面。另外作者本人在前端方面有很深的造诣，对目前的一些前端问题有深入的研究和个人独特的见解。相信读者朋友们一定能从本书中收获颇多。
 
+<div style="color:#f90;text-align:right;">--邓海龙(Helon)，腾讯前端IMWeb团队成员</div>
 
- - import技术
 
+---
+&emsp;&emsp;前端技术日新月异且涉及的知识面较广泛。对于初学者，可能有不知从何学起、所学的东西是否已经过时的困惑；对于中级者，可能对某些知识的了解不够全面和深刻。本书从前端技术的发展历程到整体架构体系逐层展开，基本涵盖了现阶段的前端技能树，为前端学习者指明了方向；同时本书注重从原理的层面进行知识点的解析，万变不离其宗，各种框架或技术之间其很多思想是相通的，把握住这点，将对读者们后续的学习会更有帮助。 
+<div style="color:#f90;text-align:right;">---李双双(Lissa)，腾讯前端工程师</div>
 
- - template和script引入方式
+---
+&emsp;&emsp; 申明：本文为半知识总结类文章，融合了知识技术体系总结，也向大家推荐了书籍，大家可以根据需要选择购买。对于前端学习者来说，相对于买一套昂贵的前端学习课程，购买一本课程内容的书更加实用，且可以用于反复学习，慢慢研究领悟，推荐买来看看，最后衷心祝各位前端learner们学有所成。
 
+[京东点击购买](https://search.jd.com/Search?keyword=%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90&enc=utf-8&wq=%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90&pvid=fcced0a32e8b43de8b93fca570a93130) &emsp;&emsp;[淘宝点击购买](https://s.taobao.com/search?q=%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.50862.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170417) &emsp;&emsp;[亚马逊购买](https://www.amazon.cn/%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90-%E5%BC%A0%E6%88%90%E6%96%87/dp/B06Y5WBR7T/ref=sr_1_1?ie=UTF8&qid=1492441680&sr=8-1&keywords=%E7%8E%B0%E4%BB%A3%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%A7%A3%E6%9E%90)
 
- - css样式命名空间隔离
+&emsp;&emsp;如果遇到什么问题，可以随时联系作者，发送邮箱 <a href="mailto:ouvenzhang@qq.com">ouvenzhang@qq.com</a>
 
+&emsp;&emsp;<a target="_blank" href="http://www.broadview.com.cn/book"><img src="http://7tszky.com1.z0.glb.clouddn.com/FqLAMLFJ9gI3g2xHqyH_-xG0wBPH" title="点击查看更多图书" width="50%"/></a>
 
- - 简单复用第三方库
-
-
-####&emsp;reactjs原理与使用
-
-
- - virtual dom单向数据绑定
-
-
- - js执行语法方式
-
-
- - UI由状态控制
-
-
-####&emsp;commonJS/AMD/CMD
-
-
- - 模块引入
-
-
- - 模块定义
-
-
- - 模块标识
-
-
- - UMD解决不同规范兼容性的问题，例如webpack封装
-
-
- - 模块懒执行(CMD)与与预执行(AMD)
-
-
-####&emsp;loadJs模块化加载原理与实现
-
-
- - 创建script标签，需要id映射到资源url
-
-
- - onload加载模块队列判断
-
-
- - 全部加载完成后触发
-
-
- - 加载失败问题优化
-
-
- - requirejs、modjs、seajs
-
-
-####&emsp;polyfill、shim原理与实现
-
-
- - polyfill提供了开发者们希望浏览器原生提供支持的功能特性
-
-
- - shim将新的API引入到旧的环境中,且仅靠旧环境中已有的手段实现
-
-
-####&emsp;virtual Dom、Incremental DOM
-
-
- - 1.用js对象树表示dom树结构，根据该对象树构建dom树
-
-
- - 2.状态改变时，重新构建对象，和旧的对象对比，记录两个对象树差异
-
-
- - 3.将对象树差异应用到dom中
-
-
- - 小结:js对象模拟dom(elem.js)，virtual dom diff算法(diff.js)、差异渲染dom(patch.js)
-
-
- - incremental dom在状态改变时扫描旧对象树将差异直接应用到dom中
-
-
-####&emsp;shadow dom
-
-
- - 隔离外部环境用于封装组件：结构、样式、行为
-
-
- - 实现形式：新标签、class类属性 + 构建编译
-
-
-####&emsp;webwork与service Worker
-
-
- - webwork与主线程机制，on/post
-
-
- - serviceworker可作为浏览器请求代理
-
-
- - 应用场景
-
-
-####&emsp;ES6转ES5、Babel与ES6开发规范体系
-
-
- - ES6编码规范全
-
-
- - ES6在babel下兼容性
-
-
- - ES6在node下兼容性与性能
-
-
- - ES6新特性：看编码规范
-
-
- - aurelia ES6前端框架
-
-
-####&emsp;Isomorphic JavaScript
-
-
- - 同构原理
-
-
- - 同构方案 Rendr
-
-
- - nodejs: 服务器
-
-
- - hapi: 应用服务
-
-
- - backbone.js: 后台mvc
-
-
- - requirejs: 模块加载
-
-
- - jquery: dom处理
-
-
- - reactjs同构:React + Flux + Koa
-
-
-####&emsp;双向数据绑定
-
-
- - 函数触发:vuejs
-
-
- - 脏数据检测:angular
-
-
- - 对象hijacking:avalon
-
-
-####&emsp;browserify运行原理
-
-
- - 1.从入口模块开始分析require函数调用
-
-
- - 2.根据依赖生成AST
-
-
- - 3.根据AST找到每个模块的模块名
-
-
- - 4.得到每个模块的依赖关系，生成一个依赖字典
-
-
- - 5.包装每个模块（传入依赖字典以及export和require函数），生成执行的js
-
-
-####&emsp;performance timing
-
-
- - performance timing api
-
-
- - performance timing 过程
-
-
- - performance timing 性能计算
-
-
- - performanceTrace库
-
-
-####&emsp;组件UI与js组件规范化
-
-
- - 组件编码规范
-
-
- - 组件目录规范：组件目录与公用目录
-
-
- - 组件构建规范：构建环境支持
-
-
- - 组件模块化管理：spm，bowserify
-
-
- - 组件复用性管理
-
-
- - 第三方组件接入成本
-
-
-####&emsp;immutable JavaScript
-
-
-####&emsp;generator与promise原理与使用
-
-
-## 二、构建生态
-
-
-####&emsp;grunt/gulp开发环境任务编写
-
-
- - 文件处理插件：html、scss、js、image、font、其它
-
-
- - 优化插件：雪碧图、图片压缩、iconfont构建
-
-
- - 发布替换插件
-
-
- - 打包、压缩包插件：组件自动分析
-
-
- - 白名单配置
-
-
- - 自定义插件编写
-
-
-####&emsp;npm、jspm、bower包管理工具
-
-
-####&emsp;r.js、browserify、webpack、Rollup打包工具使用
-
-
- - 原理：根据依赖配置文件对文件进行依赖打包
-
-
- - webpack支持更多的规范打包，AMD,Commonjs
-
-
- - webpack+babel/reactjs+reflux
-
-
-####&emsp;fis3构建与插件开发、构建环境、fis3构建离线包
-
-
-####&emsp;web Component：rosetta-org、x-view、Q、riot、nova
-
-
-####&emsp;brunch构建工具
-
-
-## 三、开发技巧与调试
-
-
-####&emsp;fiddler加willow基础组合调试
-
-
- - 常见配置与分析
-
-
- - 结合浏览器调试
-
-
-####&emsp;werien、vorlonjs远程调试，chrome inspect
-
-
-####&emsp;mockjs，F.M.S(Front Mock Server)模拟调试使用与cgi自动调试
-
-
-####&emsp;macha/phantomjs/casperjs/karma测试自动化任务使用
-
-
-####&emsp;自动化UI测试，海豚
-
-
-####&emsp;node-supervior、node-inspector、karma
-
-
-####&emsp;开发发布系统流程
-
-
-####&emsp;sublime高效插件
-
-
- - emmet工具使用、  sublimelinter、 babel snippets、 sublimeLint、 SassBeautify 、 emmet 快速编辑、 jsxlint、 SideBarEnhancements、 SnippetsMaker、 SublimeCodeIntel、 css snippets、 ColorPicker、 html/css/js Pretty、 SpinnetMacker、 DocBlockr、 MultiEditUtils、 javascript & node spinnet、 JavaScript & NodeJS Snippets、 jsLint、cssLint
-
-
-####&emsp;代码自动化检查fecs
-
-
-## 四、html、css与重构
-
-
-####&emsp;jpeg、webp、apng、bpg图片
-
-
- - 编码原理
-
-
- - 特点与优劣势
-
-
- - 适用场景
-
-
-####&emsp;iconfont使用与实现原理
-
-
- - 自动打包构建方法
-
-
- - iconfont兼容性写法
-
-
- - fonthello、fontawesome、icomoon.io、iconfont.cn线上工具
-
-
-####&emsp;页面响应式设计
-
-
- - layout布局响应式
-
-
- - html结构响应式
-
-
- - css样式响应式
-
-
- - image媒体响应式
-
-
- - javascript响应式
-
-
- - media query与平台判断
-
-
-####&emsp;css重置
-
-
- - reset
-
-
- - nomalize
-
-
- - neat
-
-
-####&emsp;sass/compass/less/postcss常用语法与使用
-
-
- - 常用语法功能
-
-
- - 组件化UI设计管理
-
-
- - 构建工具实现方案
-
-
- - 雪碧图自动合成
-
-
- - iconfont自动接入等等
-
-
-####&emsp;media query与常见页面尺寸了解
-
-
- - 媒体类型引入和媒体特性引入
-
-
- - device-width适应
-
-
- - retina屏幕适应
-
-
-####&emsp;em,rem原理与实现
-
-
- - rem计算：width*retina/10，相当于屏幕宽度为10rem
-
-
- - 字体在rem情况下仍然使用px
-
-
-####&emsp;code4ui、code4app、初页、maka等
-
-
- - 前端dom操作即使刷新前端页面
-
-
- - 根据dom操作生成组件config配置保存到db
-
-
- - 根据config配置使用r.js或webpack打包
-
-
- - 发布打包后输出文件
-
-
-####&emsp;css3动画
-
-
- - transform
-
-
- - animation
-
-
- - transiction
-
-
- - 3D加速与动画加速
-
-
- - 动画库
-
-
- - 缓动函数速查表： http://www.xuanfengge.com/easeing/easeing/
-
-
- - Ceaser： http://xuanfengge.com/easeing/ceaser/
-
-
- - cubic-bezier：http://cubic-bezier.com/
-
-
-####&emsp;css网格布局
-
-
- - susy
-
-
- - Responsive Grid System
-
-
- - Fluid 960 Grid(adaptjs)
-
-
- - Simple Grid
-
-
-####&emsp;搜索引擎与前端SEO
-
-
- - tdk优化
-
-
- - 页面内容优化
-
-
- - 唯一的H1标题
-
-
- - img设置alt属性
-
-
- - nofollow
-
-
- - url优化
-
-
- - 统一链接
-
-
- - 301跳转
-
-
- - canonical
-
-
- - robot优化
-
-
- - robots.txt
-
-
- - meta robots
-
-
- - sitemap
-
-
- - SEO工具
-
-
- - 各种站长工具等
-
-
-####&emsp;浏览器缓存种类，resources,webSQL,indexDB, localstorage,cookie,app cache,cache storage
-
-
- - store.js、cookie.js
-
-
-####&emsp;UI框架
-
-
- - bootstrap、jqwidgets、semantic ui、amaze ui
-
-
- - 微信手Q ui: frozenui、weui、blend ui
-
-
- - extjs、echart图表ui
-
-
-## 五、native/hybrid/桌面开发
-
-
-####&emsp;ionic移动开发方案
-
-
- - 运行架构
-
-
- - hybrid混合开发
-
-
- - cordova交互
-
-
- - 离线包更新
-
-
- - 性能瓶颈
-
-
-####&emsp;nativescript移动开发方案
-
-
-####&emsp;react Native移动开发方案
-
-
- - 运行架构：js引擎
-
-
- - 性能缺陷与内存泄露
-
-
- - 更新机制
-
-
- - 使用场景
-
-
-####&emsp;android/ios原生开发与框架
-
-
- - java
-
-
- - oc、swift
-
-
- - web与native交互
-
-
- - 屏幕旋转
-
-
- - 摇一摇
-
-
- - 录像，拍照，选取本地图片
-
-
- - 打电话，发短信
-
-
- - 电池电量
-
-
- - 地理位置
-
-
- - 日期选择
-
-
- - 开启硬件加速
-
-
-####&emsp;桌面应用开发
-
-
- - nodewebkit
-
-
- - atom-shell(后改名为electron)
-
-
- - 网易Hex 
-
-
- - pomelo(游戏服务器框架)
-
-
- - react desktop
-
-
- - appjs:appjs.com
-
-
-## 六、前端/H5优化(另一个图已给出)
-
-
-####&emsp;yslow、pagespeed
-
-
-####&emsp;移动web性能优化
-
-
- - 手机浏览器"省流量"原理
-
-
- - 增量更新原理及注意事项
-
-
- - 本地存储的应用
-
-
- - 加载优化
-
-
- - 图片优化
-
-
- - 单页面及路由实现
-
-
- - 业内著名站点案例分析
-
-## 七、全栈/全端开发
-
-
-####&emsp;express/node club + mongodb、thinkjs等框架
-
-
-####&emsp;node.js直出
-
-
-####&emsp;实时web开发，meteor/express.io
-
-
-####&emsp;MEAN(mongodb/express/angular/nodejs)
-
-
-####&emsp;http与http2协议、bigpipe、pipeline
-
-
-####&emsp;离线缓存，cookie、localstorage、indexdb
-
-
-####&emsp;cdn与dns
-
-
- - 动态域名加速
-
-
- - cdn原理与cdn combo
-
-
-## 八、研究实验
-
-
-####&emsp;WebAssembly、webTRC、typescript
-
-
-####&emsp;Material design规范的前端框架
-
-
- - 交互动效库
-
-
-####&emsp;AMP-HTML规范
-
-
- - 使用受限HTML以及缓存技术来提高移动网络中静态内容的性能
-
-
- - 添加自定义的元素代替禁用掉的元素：amp-audio, amp-img、amp-video等
-
-
-## 九、数据分析与监控
-
-
-####&emsp;badjs数据上报
-
-
- - 捕获错误两种方法：onerror、try-catch。抽样上报，先onerror统计语法错误，如果是script error，再使用tryjs。
-
-
- - 后台统计方法、不同业务接入体系、抽样统计
-
-
- - onerror:可以捕捉语法错误和运行时错误；可以拿到出错的信息，堆栈，出错文件、行号、列号；当前页面执行的js脚本出错都会捕捉到；跨域的资源需要特殊头部支持。
-
-
- - try-catch:无法捕捉语法错误，只能捕捉运行时错误；可以拿到出错的信息，堆栈，出错文件、行号、列号；需要借助工具把function块以及文件块加入try,catch，可以在这个阶段打入更多的静态信息。
-
-
-####&emsp;点击热力图clickHeat、heatMap
-
-
-####&emsp;js加载失败优化方案
-
-
- - 失败重发机制
-
-
- - 加载源域名服务器文件
-
-
- - https反劫持
-
-
-####&emsp;百度alog数据上报
-
-
-## 十、其它软技能
-
-
-####&emsp;axure 原型图设计
-
-
-####&emsp;xmind脑图管理
-
-
-####&emsp;效率管理
-
-
-####&emsp;can i use、github
-
-
-####&emsp;知识管理/总结分享
-
-
-####&emsp;产品思维与技能
-
-
-## 十一、前端技术网站
-
-
-####&emsp;技术社区
-
-
- - w3c tech、w3c plus、w3 help
-
-
- - div.io、nodeParty
-
-
- - 稀土掘金、前端早读课
-
-
- - alloyteam、html5基地
-
-
- - W3 help
-
-
-####&emsp;行业会议
-
-
- - segmentfault会议
-
-
- - 深js、杭js
-
-
- - GMIC(全球移动互联网大会)
-
-
- - D2、webrebuild
-
-
- - infoQ内容、Qcon、velocity
-
-
-
-&emsp;&emsp;后面此知识体系图会更新，内容更全，讲解更全面，同时将和与之讲解的书籍一起放出，敬请期待。
-
-&emsp;&emsp;持续更新中，如果觉得不错，请点star支持下，甚至在您的团队里扩散下，谢谢~
